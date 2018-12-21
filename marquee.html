@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+.wrapper p {
+  position: relative;
+  margin: 0;
+  line-height: 25px;
+  white-space: nowrap;
+  animation: marquee 5s linear infinite;
+}
+
+@keyframes marquee {
+  0% { transform: translateY(100%); }
+  100% { transform: translateY(-100%); }
+}
+
+.wrapper p:hover{
+  animation-play-state: paused;
+  color:red;
+}
+
+</style>
+</head>
+<body>
+
+
+
+<div class="wrapper">
+    <p>
+    Hey, how you're doing? Sorry you can't get through.<br>
+    hi
+    <br>
+    please click this link
+    </p>
+    
+</div>
+
+
+
+</body>
+</html>
